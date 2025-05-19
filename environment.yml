@@ -1,0 +1,14 @@
+name: digital_modeling_and_big_data_lecture
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - anaconda::spyder
+  - spyder-notebook
+  - anaconda::pandas
+  - anaconda::matplotlib
+  - anaconda::scikit-learn
+  - anaconda::pytz
+  - anaconda::seaborn
+  - anaconda::statsmodels
