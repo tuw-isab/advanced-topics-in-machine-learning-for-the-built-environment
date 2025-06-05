@@ -196,7 +196,7 @@ def plot_building_load_profiles(
         ax.set_ylabel('kWh')
 
         if daily_average:
-            ax.set_xlabel('Hour')
+            ax.set_xlabel('Hour of day')
             ax.xaxis.set_major_locator(ticker.MultipleLocator(2))
 
         else:
