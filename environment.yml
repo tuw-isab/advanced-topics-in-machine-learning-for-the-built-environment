@@ -2,6 +2,7 @@ name: digital_modeling_and_big_data_lecture
 channels:
   - defaults
   - conda-forge
+  - pytorch
 dependencies:
   - python=3.11
   - anaconda::spyder
@@ -12,3 +13,8 @@ dependencies:
   - anaconda::pytz
   - anaconda::seaborn
   - anaconda::statsmodels
+  - conda-forge::transformers
+  - conda-forge::sentence-transformers
+  - pytorch::pytorch
+  - anaconda::gensim
+  - conda-forge::accelerate
