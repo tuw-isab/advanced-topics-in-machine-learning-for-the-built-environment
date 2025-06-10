@@ -8,6 +8,8 @@ __pycache__/
 
 .idea/
 
+*.wordvectors*
+
 # Distribution / packaging
 .Python
 build/
